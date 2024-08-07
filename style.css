@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  body{
+    height: 550px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 2px 4px rgb(67, 62, 68);
+    flex-direction: column;
+    background: linear-gradient(90deg, rgba(229,41,219,0.9841633430716037) 0%, rgba(241,48,237,0.9841633430716037) 41%, rgba(243,19,193,1) 78%);
+    font-size: 30px;
+    -moz-user-select: none; -khtml-user-select: none; user-select: none;
+    
+}
+button{
+    width:140px;
+    height: 50px;
+    border-radius: 17px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 247, 0, 0.885);
+    transition: all 0.05s ease-in;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    box-shadow: 19px 19px 19px 19px rgba(34, 60, 80, 0.2);
+    text-shadow: 1px 0.7px rgba(69, 66, 70, 0.424);
+}
+.click:hover{
+    background-color: greenyellow;
+}
+button:active{
+    transform: scale(0.97);
+}
+#demo2{
+    color: red;
+}
+#demo{
+    color: rgb(9, 255, 0);
+    
+}
+.byclick{
+    background-color: red;
+    margin-right: 10px;
+}
+.click{
+    margin-top: 60px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.click:hover{
+    cursor: pointer;
+}
+.click:active .img:active{
+    transition: 0.05s ease-in;
+    transform: scale(0.95);
+    width: 155px;
+    height: 145px;
+    cursor: pointer;
+}
+#f{
+    margin-top: 100px;
+}
+#X2{
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    font-size: 11px;
+}
+#restart{
+    background-color: rgb(0, 255, 166) ;
+    color: black;
+}
+.img{
+    width: 160px;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    margin-right: 20px;
+    padding-top: 25px;
+}
+#fa{
+    text-shadow: 0 0 rgb(0, 0, 0);
+    font-weight: 500;
+}
+.icon{
+    color: black;
+}
+.clicker{
+    margin-top: 100px;
+    width: 900px;
+    height: 800px;
+    border: 2px solid rgb(214, 66, 160);
+}
+.clicker:hover{
+    cursor: pointer;
+}
+.clicker:active img{
+    transform: scale(0.95);
+}
+.tex{
+    text-shadow: none;
+    font-weight: 600;
+}
+.live{
+    height: 20px;
+    width: 190px;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+    margin-left: 340px;
+    margin-top: 20px;
+}
+#demo{
+    margin-top: 20px;
+}
+#greenlive{
+    height: 20px;
+    background-color: greenyellow;
+}
+#hp{
+    font-size: 20px;
+    display: block;
+    font-weight: 900;
+    text-shadow: none;
+    color: rgb(0, 0, 0);
+}
